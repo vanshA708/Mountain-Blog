@@ -1,0 +1,438 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* header */
+.head{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0px 30px 30px 30px;
+}
+.heading{
+    text-align: center;
+    font-size: 50px;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background-color:black;
+    border-radius: 15px;
+}
+.nav{
+    width: 100%;
+}
+.nav ul {
+    display: flex;
+    gap: 50px;
+    font-size: 30px;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    font-weight: bolder;
+}
+.nav ul li a{
+    text-decoration: none;
+}
+
+/* main */
+
+.info{
+    margin: 10px 30px;
+    
+}
+.details{
+    background-image: url(asset/1.jpg);
+    background-size: cover;
+    border-radius: 15px;
+    height: 80vh;
+    color: white;
+}
+.details div{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    padding: 0 35vw 0 20vw ;
+}
+.details div span{
+    color: white;
+    background-color: greenyellow;
+    border-radius: 15px;
+    font-size: 28px;
+    padding: 1px 20px;
+    margin: 20px 0px;
+}
+.details div h1{
+    font-size: 50px;
+    color: rgb(37, 59, 59);
+    margin: 10px 0;
+}
+.details div p{
+    font-size: 20px;
+    color: rgb(37, 59, 59);
+    font-weight: bold;
+}
+
+/* section */
+.Environment{
+    margin: 20px 30px;
+}
+.Environment div{
+    display: flex;
+    gap: 20px;
+}
+.row-1{
+    background-image: url(asset/11.jpg);
+    height: 40vh;
+    border-radius: 15px;
+    background-size: cover;
+}
+.row-1 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: aliceblue;
+    align-items: baseline;
+    margin: 0 0 0 2%;
+}
+.row-1 div span{
+    color: white;
+    background-color: rgb(47, 50, 255);
+    border-radius: 15px;
+    font-size: 28px;
+    padding: 1px 20px;
+}
+.row-1 div p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.row-2{
+    background-image: url(asset/12.jpg);
+    height: 40vh;
+    border-radius: 15px;
+    background-size: cover;
+}
+.row-2 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: aliceblue;
+    align-items: baseline;
+    margin: 0 0 0 2%;
+}
+.row-2 div span{
+    color: white;
+    background-color: greenyellow;
+    border-radius: 15px;
+    font-size: 28px;
+    padding: 1px 20px;
+}
+.row-2 div p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.row-3{
+    background-image: url(asset/14.jpeg);
+    height: 40vh;
+    border-radius: 15px;
+    background-size: cover;
+}
+.row-3 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: aliceblue;
+    align-items: baseline;
+    margin: 0 0 0 2%;
+}
+.row-3 div span{
+    color: white;
+    background-color: rgb(250, 0, 0);
+    border-radius: 15px;
+    font-size: 28px;
+    padding: 1px 20px;
+}
+.row-3 div p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+/* destination */
+
+.Destination{
+    margin: 100px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.Destination h1{
+    font-size: 70px;
+    text-align: center;
+}
+.outfit{
+    display: flex;
+    gap: 100px;
+    justify-content:space-between ;
+}
+.side img{
+    width: 100%;
+    border-radius: 15px;
+}
+.valley{
+    font-size: 20px;
+    display: grid;
+    gap: 15px;
+}
+.name{
+    display: grid;
+    
+}
+.name h3{
+    font-size: 40px;
+}
+.name p{
+    font-size: 25px;
+}
+/* technology */
+.techno{
+    margin: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.techno-heading{
+    font-size: 50px;
+    text-align: center;
+}
+.techno-detail{
+    display: flex;
+    gap: 20px;
+}
+.column-1{
+    background-image: url(asset/31.jpeg);
+    height: 40vh;
+    border-radius: 15px;
+    background-size: cover;
+}
+.column-1 div{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    color: aliceblue;
+    align-items: baseline;
+    margin: 0 0 0 2%;
+}
+.column-1 div span{
+    color: white;
+    background-color: greenyellow;
+    border-radius: 15px;
+    font-size: 28px;
+    padding: 1px 20px;
+}
+.column-1 div p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.column-2{
+    background-image: url(asset/32.jpeg);
+    height: 40vh;
+    border-radius: 15px;
+    background-size:cover ;
+    background-repeat: no-repeat;
+
+}
+.column-2 div{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    color: aliceblue;
+    align-items: baseline;
+    margin: 0 0 0 2%;
+}
+.column-2 div span{
+    color: white;
+    background-color: rgb(255, 47, 47);
+    border-radius: 15px;
+    font-size: 28px;
+    padding: 1px 20px;
+}
+.column-2 div p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.column-3{
+    background-image: url(asset/33.jpeg);
+    height: 40vh;
+    border-radius: 15px;
+    background-size: cover;
+}
+.column-3 div{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    color: aliceblue;
+    align-items: baseline;
+    margin: 0 0 0 2%;
+}
+.column-3 div span{
+    color: white;
+    background-color: rgb(47, 50, 255);
+    border-radius: 15px;
+    font-size: 28px;
+    padding: 1px 20px;
+}
+.column-3 div p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+/* benefit */
+
+.benefit{
+    margin: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.bene-heading{
+    text-align: center;
+    font-size: 50px;
+}
+.para{
+    font-size: 30px;
+    display: grid;
+    gap: 2px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Media query for screens with a maximum width of 768px (e.g., tablets and smaller) */
+@media only screen and (max-width: 768px) {
+    /* Adjust layout and styling for smaller screens */
+    .head {
+      flex-direction: column;
+      gap: 10px;
+    }
+    .nav ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+    .info {
+      margin: 10px;
+    }
+    .details {
+      height: 60vh;
+    }
+    .Environment {
+      flex-direction: column;
+      gap: 10px;
+    }
+    .row-1, .row-2, .row-3 {
+      height: 30vh;
+    }
+    .Destination {
+      margin: 50px 10px;
+    }
+    .outfit {
+      flex-direction: column;
+      gap: 10px;
+    }
+    .side img {
+      width: 80%;
+    }
+    .valley {
+      font-size: 18px;
+    }
+    .techno {
+      margin: 20px 10px;
+    }
+    .techno-detail {
+      flex-direction: column;
+      gap: 10px;
+    }
+    .column-1, .column-2, .column-3 {
+      height: 30vh;
+    }
+    .benefit {
+      margin: 20px 10px;
+    }
+    .para {
+      font-size: 24px;
+    }
+  }
+  
+  /* Media query for screens with a maximum width of 480px (e.g., mobile phones) */
+  @media only screen and (max-width: 480px) {
+    /* Adjust layout and styling for even smaller screens */
+    .head {
+      gap: 5px;
+    }
+    .nav ul {
+      gap: 5px;
+    }
+    .info {
+      margin: 5px;
+    }
+    .details {
+      height: 40vh;
+    }
+    .Environment {
+      gap: 5px;
+    }
+    .row-1, .row-2, .row-3 {
+      height: 20vh;
+    }
+    .Destination {
+      margin: 20px 5px;
+    }
+    .outfit {
+      gap: 5px;
+    }
+    .side img {
+      width: 60%;
+    }
+    .valley {
+      font-size: 16px;
+    }
+    .techno {
+      margin: 10px 5px;
+    }
+    .techno-detail {
+      gap: 5px;
+    }
+    .column-1, .column-2, .column-3 {
+      height: 20vh;
+    }
+    .benefit {
+      margin: 10px 5px;
+    }
+    .para {
+      font-size: 20px;
+    }
+  }
